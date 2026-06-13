@@ -39,43 +39,43 @@ Labores y Sueldos...
 
 Lógica...
 
-Sueldo proporcional-- Sueldo base × (días trabajados / 30)
-Horas extra---------- Número de horas × $5.000
-Total imponible------ Sueldo proporcional + Horas extras
+Sueldo proporcional--=Sueldo base × (días trabajados / 30)
+Horas extra----------= Número de horas × $5.000
+Total imponible------= Sueldo proporcional + Horas extras
 
-Descuento AFP-------- Total imponible × 10.00%
-Descuento Salud------ Total imponible × 7.00%
-Seguro Cesantía------ Total imponible × 0.60%
+Descuento AFP--------=Total imponible × 10.00%
+Descuento Salud------=Total imponible × 7.00%
+Seguro Cesantía------=Total imponible × 0.60%
 
-Total haberes-------- Total imponible + Bonos no imponibles
-Total descuentos----- Desc. legales + Desc. adicionales
-Líquido a pagar------- Total haberes − Total descuentos
+Total haberes--------=Total imponible + Bonos no imponibles
+Total descuentos-----=Desc. legales + Desc. adicionales
+Líquido a pagar------=Total haberes − Total descuentos
 
-__Instalación y su uso.
+__Instalación y su uso__
 
 - Python 3.10 o superior
 - pip
 
-__Instala las dependencias
+__Instala las dependencias__
 
 bash
 pip install -r requirements.txt
 
 
-___Ejecuta
+___Ejecuta__
 
 bash
 python liquidacion.py
 
 
-Instalar...
+__Instalar...__
 reportlab>=4.0
 openpyxl>=3.1
 Tkinter viene incluido con python así que no requiere instalación adicional.
 
 
 
-Estructura
+__Estructura__
 sistema-liquidaciones-agricola
 ├── liquidacion.py        # Ventana principal e interfaz gráfica
 ├── calculos.py           # Lógica de negocio: cálculo de liquidaciones
@@ -87,7 +87,7 @@ sistema-liquidaciones-agricola
 
 Versión 1.0
 
-Martín Hernández Tapia
-Programming student
-Chile
-GitHub: [@mhernandeztapia](https://github.com/mhernandeztapia)  
+#Martín Hernández Tapia
+#Programming student
+#Chile
+#GitHub: [@mhernandeztapia](https://github.com/mhernandeztapia)  
